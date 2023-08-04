@@ -2,18 +2,30 @@
 
 ###
 
-<img align="center" height="500" src="[https://media.discordapp.net/attachments/1012149967785312408/1120896343850885140/Screenshot_20230620-231218_TaskTodayAppSab.jpg?width=269&height=598](https://discord.com/channels/914572071114264656/914572071114264659/1137018836634324992)"  />
+<div align="center">
+  <img height="750" src="https://cdn.discordapp.com/attachments/914572071114264659/1137018836445569024/image.png"  />
+</div>
 
 ###
 
-<img align="center" height="500" src="[https://media.discordapp.net/attachments/1012149967785312408/1120896343616016474/Screenshot_20230620-231223_TaskTodayAppSab.jpg?width=269&height=598](https://discord.com/channels/914572071114264656/914572071114264659/1137019766549250078)"  />
+<div align="center">
+  <img height="680" src="https://cdn.discordapp.com/attachments/914572071114264659/1137019766175977472/image.png"  />
+</div>
 
 ###
 
-<img align="center" height="500" src="[https://media.discordapp.net/attachments/1012149967785312408/1120896344119316550/Screenshot_20230620-231214_TaskTodayAppSab.jpg?width=269&height=598](https://discord.com/channels/914572071114264656/914572071114264659/1137019935239962685)https://discord.com/channels/914572071114264656/914572071114264659/1137019935239962685"  />
+<div align="center">
+  <img height="760" src="https://cdn.discordapp.com/attachments/914572071114264659/1137019934963146932/image.png"  />
+</div>
 
-<img align="center" height="500" src="[[https://media.discordapp.net/attachments/1012149967785312408/1120896344119316550/Screenshot_20230620-231214_TaskTodayAppSab.jpg?width=269&height=598](https://discord.com/channels/914572071114264656/914572071114264659/1137019935239962685)https://discord.com/channels/914572071114264656/914572071114264659/1137019935239962685](https://discord.com/channels/914572071114264656/914572071114264659/1137020224651132989)https://discord.com/channels/914572071114264656/914572071114264659/1137020224651132989"  />
+###
 
-<img align="center" height="500" src="[[[https://media.discordapp.net/attachments/1012149967785312408/1120896344119316550/Screenshot_20230620-231214_TaskTodayAppSab.jpg?width=269&height=598](https://discord.com/channels/914572071114264656/914572071114264659/1137019935239962685)https://discord.com/channels/914572071114264656/914572071114264659/1137019935239962685](https://discord.com/channels/914572071114264656/914572071114264659/1137020404104429619)https://discord.com/channels/914572071114264656/914572071114264659/1137020404104429619](https://cdn.discordapp.com/attachments/914572071114264659/1137020404335136788/image.png)https://cdn.discordapp.com/attachments/914572071114264659/1137020404335136788/image.png"  />
+<div align="center">
+  <img height="740" src="https://cdn.discordapp.com/attachments/914572071114264659/1137020224420454481/image.png"  />
+</div>
+
+###
+
+<img align="left" height="500" src="https://cdn.discordapp.com/attachments/914572071114264659/1137020404335136788/image.png"  />
 
 ###
