@@ -7,7 +7,9 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+		<div class="bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg p-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+				
                 <div class="p-6 text-gray-900">
   
         <div class="col-10 m-auto">    
@@ -26,12 +28,12 @@
 
 						<div class="mb-3">
 							<label for="exampleFormControlInput1" class="form-label">Telefone:</label>
-							<input type="tel" name="telefone" class="form-control"   value="{{$clientes->telefone}}" readonly>
+							<input type="tel" name="telefone" class="form-control"   value="{{$clientes->telefone}}" readonly >
 						</div>
 
 						<div class="mb-3">
 							<label for="exampleFormControlSelect1" class="form-label">Origem:</label>
-							<input class="form-select" name="origem" aria-label="Default select example" value="{{$clientes->origem}}" readonly>
+							<input class="form-select" name="origem" aria-label="Default select example" value="{{$clientes->origem}}" disabled readonly>
 							
 						</div>
 
@@ -74,10 +76,49 @@
 						</div>
 
 						<div class="mb-3">
-							<label for="exampleFormControlInput1" class="form-label">Estado:</label>
-							<input type="text" name="estado" class="form-control"   value="{{$clientes->estado}}" readonly>
-						</div>
-
+								<label for="estado" class="form-label">Estado:</label>
+								<select class="form-select" name="estado" id="estado" required disabled>
+									<option value="">Selecione um estado</option>
+									@php
+										$estados = [
+											"AC" => "Acre",
+											"AL" => "Alagoas",
+											"AP" => "Amapá",
+											"AM" => "Amazonas",
+											"BA" => "Bahia",
+											"CE" => "Ceará",
+											"DF" => "Distrito Federal",
+											"ES" => "Espírito Santo",
+											"GO" => "Goiás",
+											"MA" => "Maranhão",
+											"MT" => "Mato Grosso",
+											"MS" => "Mato Grosso do Sul",
+											"MG" => "Minas Gerais",
+											"PA" => "Pará",
+											"PB" => "Paraíba",
+											"PR" => "Paraná",
+											"PE" => "Pernambuco",
+											"PI" => "Piauí",
+											"RJ" => "Rio de Janeiro",
+											"RN" => "Rio Grande do Norte",
+											"RS" => "Rio Grande do Sul",
+											"RO" => "Rondônia",
+											"RR" => "Roraima",
+											"SC" => "Santa Catarina",
+											"SP" => "São Paulo",
+											"SE" => "Sergipe",
+											"TO" => "Tocantins"
+										];
+									@endphp
+									@foreach($estados as $sigla => $estado)
+										@if($sigla == $clientes->estado)
+											<option selected value="{{$sigla}}">{{$estado}}</option>
+										@else
+											<option value="{{$sigla}}">{{$estado}}</option>
+										@endif
+									@endforeach
+								</select>
+							</div>
 
 
 							</div>
