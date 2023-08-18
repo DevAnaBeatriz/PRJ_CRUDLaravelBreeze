@@ -1,0 +1,40 @@
+.container2{
+    width: 350px;
+    height: 150px;
+    background: linear-gradient(0, #ac0f0f, #ffffff);
+  }
+
+  .stars2{
+    position: relative;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 15px 15px black,
+      125px 35px black,
+      50px 80px black,
+      10px 120px black,
+      275px 90px black,
+      230px 10px black,
+      120px 130px black,
+      300px 130px black,
+      220px 115px black;
+    animation: anim-stars 20s linear infinite;
+  }
+  
+  .stars2::after{
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 15px 15px black,
+      125px 35px black,
+      50px 80px black,
+      10px 120px black,
+      275px 90px black,
+      230px 10px black,
+      120px 130px black,
+      300px 130px black,
+      220px 115px black;
+  }
