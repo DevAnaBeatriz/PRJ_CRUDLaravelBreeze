@@ -22,12 +22,7 @@
             <tr>
                     <th>Nome&nbsp;&nbsp;</th>
                     <th>Telefone&nbsp;&nbsp;</th>
-                    <th>Origem&nbsp;&nbsp;</th>
-                    <th>Endereço&nbsp;&nbsp;</th>
-                    <th>Bairro&nbsp;&nbsp;</th>
-                    <th>CEP&nbsp;&nbsp;</th>
-                    <th>Cidade&nbsp;&nbsp;</th>
-                    <th>Estado&nbsp;&nbsp;</th>
+                    <th>Origem&nbsp;&nbsp;</th>                
                     <th>Data do Contato&nbsp;&nbsp;</th>
                     <th>Observação&nbsp;&nbsp;</th>
                     <th>Ação&nbsp;&nbsp;</th>
@@ -38,21 +33,16 @@
                 <tr >
                     <th >{{$clientes->nome}}&nbsp;&nbsp;</th>
                     <td>{{$clientes->telefone}}&nbsp;&nbsp;</td>
-                    <td>{{$clientes->origem}}&nbsp;&nbsp;</td>
-                    <td>{{$clientes->endereco}}&nbsp;&nbsp;</td>
-                    <td>{{$clientes->bairro}}&nbsp;&nbsp;</td>
-                    <td>{{$clientes->cep}}&nbsp;&nbsp;</td>
-                    <td>{{$clientes->cidade}}&nbsp;&nbsp;</td>
-                    <td>{{$clientes->estado}}&nbsp;&nbsp;</td>
+                    <td>{{$clientes->origem}}&nbsp;&nbsp;</td>               
                     <td>{{$clientes->data_contato}}&nbsp;&nbsp;</td>
                     <td>{{$clientes->observacao}}&nbsp;&nbsp;</td>
                     <td>
                         <a href='{{url("/ver/{$clientes->id}")}}'>
                             <button class="btn btn-dark">Visualizar</button>
-                        </a>
+                        </a><br>
                         <a href='{{url("/editar/{$clientes->id}")}}'>
                             <button class="btn btn-primary">&nbsp;&nbsp;&nbsp;Editar&nbsp;&nbsp;&nbsp;</button>
-                        </a>
+                        </a><br>
                         <a  href='{{url("/excluir/{$clientes->id}")}}'  class="js-del">  
                         <button class="btn btn-danger">&nbsp;&nbsp;Deletar&nbsp;&nbsp;</button>
                         </a>
